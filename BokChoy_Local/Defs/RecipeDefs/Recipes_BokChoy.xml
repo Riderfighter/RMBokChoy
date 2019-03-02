@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RecipeDef>
+        <defName>CookBokChoySoup</defName>
+        <label>Bok Choy Soup (4)</label>
+        <description>Cook very tasty Bok Choy soup made of meat and Bok Choy!</description>
+        <jobString>Cooking stew</jobString>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawBokChoy</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                    </categories>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <BokChoySoup>4</BokChoySoup>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawBokChoy</li>
+            </thingDefs>
+            <categories>
+                <li>MeatRaw</li>
+            </categories>
+            <specialFiltersToDisallow>
+                <li>AllowRotten</li>
+            </specialFiltersToDisallow>
+        </fixedIngredientFilter>
+        <workAmount>800</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <workSkill>Cooking</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>

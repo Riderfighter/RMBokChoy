@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="MealRottable">
+        <defName>BokChoySoup</defName>
+        <label>Bok Choy Soup</label>
+        <description>Tasty Bok Choy soup made of meat and Bok Choy!</description>
+        <graphicData>
+            <texPath>Things/Item/Food/BokChoySoup</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>30</MarketValue>
+            <Mass>0.25</Mass>
+            <Nutrition>0.65</Nutrition>
+        </statBases>
+        <ingestible>
+            <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+            <preferability>MealFine</preferability>
+            <tasteThought>AteBokChoy</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+        </ingestible>
+    </ThingDef>
+</Defs>

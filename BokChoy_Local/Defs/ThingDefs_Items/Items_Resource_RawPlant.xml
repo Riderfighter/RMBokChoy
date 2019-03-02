@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>RawBokChoy</defName>
+        <label>Bok Choy</label>
+        <description>Raw Bok Choy.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/BokChoy</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.5</MarketValue>
+            <Nutrition>0.05</Nutrition>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <preferability>RawBad</preferability>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>3</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

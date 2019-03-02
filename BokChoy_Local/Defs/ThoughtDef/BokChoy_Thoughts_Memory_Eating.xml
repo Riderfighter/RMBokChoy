@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======= Basic quality thoughts ========= -->
+
+  <ThoughtDef>
+    <defName>AteBokChoy</defName>
+    <durationDays>1</durationDays>
+     <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>ate bok choy</label>
+        <description>Although Bok Choy and Meat separately are mediocre at best, combined they create something special. Mmmm...</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
