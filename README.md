@@ -4,7 +4,7 @@
 
 ---
 
-## What is SimplySAublime's Bok Choy?
+## What is SimplySublime's Bok Choy?
 
 > SimplySublime's Bok Chor mod adds Chinese cabbage, a crop with low nutrition, fast grow times, and high yield.
 > 
@@ -15,3 +15,4 @@
 ### Change log
 
 * [March 2, 2019] Added core files.
+* [August 3, 2019] Fixed minor spelling mistake in readme.
